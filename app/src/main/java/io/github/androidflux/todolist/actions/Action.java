@@ -6,8 +6,6 @@ package io.github.androidflux.todolist.actions;
  */
 public interface Action<P> {
 
-  void init(String type, Object... datas);
-
   P getDatas();
 
   String getType();

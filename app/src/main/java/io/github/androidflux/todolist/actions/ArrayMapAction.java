@@ -10,7 +10,7 @@ public class ArrayMapAction implements Action<ArrayMap<String, Object>> {
   private String type;
   private ArrayMap<String, Object> datas;
 
-  @Override public void init(String type, Object... params) {
+  public void init(String type, Object... params) {
     this.type = type;
     this.datas = new ArrayMap<>();
 
