@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">todoList</string>
+  <string name="action_settings">Settings</string>
+  <string name="add_todo">Just Do It</string>
+  <string name="complete">Yep!</string>
+  <string name="destroy_all">destroy all</string>
+</resources>
